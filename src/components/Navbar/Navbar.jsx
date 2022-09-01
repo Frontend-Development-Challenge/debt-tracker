@@ -1,9 +1,11 @@
-import './Navbar.style.css';
-import { Link } from 'react-router-dom';
+import "../../assets/styles/Navbar.style.css"
 
-export const Navbar = () => (
-   <div>
+
+const Navbar = () => (
+   <nav className="home-nav">
     <button> Sign In</button>
     <button> Sign Up</button>
-   </div>
+   </nav>
 )
+
+export default Navbar

@@ -1,0 +1,18 @@
+.home-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100vw;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.home-nav button {
+    padding: 1rem 3rem;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+}
