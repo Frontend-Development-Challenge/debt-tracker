@@ -3,8 +3,8 @@ import "../../assets/styles/Navbar.style.css"
 
 const Navbar = () => (
    <nav className="home-nav">
-    <button> Sign In</button>
-    <button> Sign Up</button>
+    <button className="sign-in"> Sign In</button>
+    <button className="sign-up"> Sign Up</button>
    </nav>
 )
 

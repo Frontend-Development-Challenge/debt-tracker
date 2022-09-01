@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+.landing {
+    display: flex;
+    flex-direction: column;
+}
+.landing-info {
+    margin-top: 200px;
+    margin-left: 90px;
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: Poppins;
+    color: black;
+    line-height: 150%;
+}
+.landing-info p {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 130%;
+    color: black;
+}
+.landing-image {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -230px;
+    margin-right: 0px;
+}
+
+.image1 {
+    font-size: 0;
+    image-rendering: optimizeQuality;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    padding: 0;
+}

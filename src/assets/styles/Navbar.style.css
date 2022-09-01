@@ -1,18 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 .home-nav {
     display: flex;
     justify-content: flex-end;
-    gap: 1rem;
+    gap: 2rem;
     padding: 1rem;
     width: 100vw;
     position: absolute;
     top:0;
     left:0;
 }
-
-.home-nav button {
-    padding: 1rem 3rem;
-    outline: none;
-    background-color: transparent;
-    border: 2px solid white;
-    border-radius: 5px;
+.sign-up {
+    border: 1.5px solid #1D1D1D;
+    background-color: white;
+    padding: 1rem 2.7rem;
+    border-radius: 18px;
+    color: #1D1D1D;
+    font-family: Poppins;
+    font-weight: 800;
+    font-size: 12px;
+}
+.sign-up:hover{
+    background-color: rgba(73, 190, 255, 0.3);
+}
+.sign-in:hover {
+    background-color: white;
+}
+.sign-in {
+    border: none;
+    background-color: rgba(73, 190, 255, 0.3);
+    padding: 1rem 2.7rem;
+    border-radius: 18px;
+    opacity: 1;
+    color: #1D1D1D;
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: 12px;
 }
