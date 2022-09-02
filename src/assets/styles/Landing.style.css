@@ -1,35 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
 .landing {
     display: flex;
-    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
 }
+
 .landing-info {
-    margin-top: 200px;
-    margin-left: 90px;
     font-weight: 900;
     font-size: 3rem;
+    line-height: 4rem;
     font-family: Poppins;
     color: black;
-    line-height: 150%;
+    width: 40%;
 }
+
 .landing-info p {
     font-size: 2rem;
+    line-height: 3rem;
     font-weight: 500;
-    line-height: 130%;
     color: black;
 }
+
 .landing-image {
+    position: relative;
+    width: 45%;
     display: flex;
-    justify-content: flex-end;
-    margin-top: -230px;
-    margin-right: 0px;
+    justify-content: center;
+}
+
+.image1,.image2,.image3 {
+    position: absolute;
+    width: 18rem;
 }
 
 .image1 {
-    font-size: 0;
-    image-rendering: optimizeQuality;
-    background-repeat: no-repeat;
-    height: 100px;
-    width: 100px;
-    padding: 0;
+    top: 0;
+    right: 0;
+}
+
+.image2 {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.image3 {
+    bottom: 0;
+    right: 0;
 }

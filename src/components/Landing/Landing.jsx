@@ -15,9 +15,10 @@ const Landing = () => (
             </p>
         </div>
         <div className="landing-image">
-            <img className="SVGart"src={SVGart} alt="art"></img>
-            {/* <img className="image1" src={image1} alt="image1"></img> */}
-
+            <img className="SVGart"src={SVGart} alt="art"/>
+            <img className="image1" src={image1} alt="image1" />
+            <img className="image2" src={image2} alt="image2" />
+            <img className="image3" src={image3} alt="image3" />
         </div>        
     </section>
 )

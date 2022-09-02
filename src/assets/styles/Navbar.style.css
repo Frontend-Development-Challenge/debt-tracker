@@ -19,11 +19,12 @@
     font-weight: 800;
     font-size: 12px;
 }
+
 .sign-up:hover{
     background-color: rgba(73, 190, 255, 0.3);
 }
-.sign-in:hover {
-    background-color: white;
+button:hover {
+    cursor: pointer;
 }
 .sign-in {
     border: none;
