@@ -11,7 +11,7 @@ const Landing = () => (
                 Record and Track your<br/>Debts
             </h1>
             <p>
-                With DebtTrack you can track and make <br/> records of whoever own you money
+                With DebtTrack you can track and make <br/> records of whoever owes you money
             </p>
         </div>
         <div className="landing-image">
